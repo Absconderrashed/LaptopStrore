@@ -1,0 +1,38 @@
+{
+  "name": "laptop-store",
+  "version": "1.0.0",
+  "description": "Pure routing using node js",
+  "main": "index.js",
+  "dependencies": {
+    "anymatch": "^3.1.1",
+    "clone-response": "^1.0.2",
+    "decompress-response": "^3.3.0",
+    "end-of-stream": "^1.4.4",
+    "make-dir": "^3.1.0",
+    "mimic-response": "^1.0.1",
+    "minimist": "^1.2.5",
+    "ms": "^2.1.2",
+    "nodemon": "^2.0.3",
+    "nopt": "^1.0.10",
+    "normalize-path": "^3.0.0",
+    "normalize-url": "^4.5.0",
+    "p-cancelable": "^1.1.0",
+    "picomatch": "^2.2.2",
+    "prepend-http": "^2.0.0",
+    "readdirp": "^3.4.0",
+    "pupa": "^2.0.1",
+    "responselike": "^1.0.2",
+    "semver-diff": "^3.1.1",
+    "signal-exit": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
+  "author": "Sayeedur Rahman",
+  "license": "ISC"
+}
