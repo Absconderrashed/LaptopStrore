@@ -79,7 +79,7 @@ function replaceTemplate(originalHtml, laptop){
     let output = originalHtml.replace(/{%PRODUCTNAME%}/g, laptop.productName);
     output = output.replace(/{%IMAGE%}/g, laptop.image);
     output = output.replace(/{%PRICE%}/g, laptop.price);
-    output = output.replace(/{%SCREEN%/g, laptop.screen);
+    output = output.replace(/{%SCREEN%}/g, laptop.screen);
     output = output.replace(/{%CPU%}/g, laptop.cpu);
     output = output.replace(/{%STORAGE%}/g, laptop.storage);
     output = output.replace(/{%RAM%}/g, laptop.ram);
